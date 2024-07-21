@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style> 
+
+    .barra {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      font-style: italic;
+      background-color: rgb(172, 179, 180);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .barra a {
+        text-decoration: none; /* Quita el subrayado de los enlaces */
+        margin: 0 15px; /* Espacio entre los enlaces */
+        text-align: center; /* Alinea el texto dentro de los enlaces */
+    }
+
+    .Alineacion >h1 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Alineacion > h2{
+
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+
+    }
+    
+
+    .container {
+            display: flex;
+            align-items: center; /* Alinea verticalmente los elementos */
+            justify-content: space-between; /* Espacia los elementos a lo largo del contenedor */
+            margin: 20px; /* Margen alrededor del contenedor */
+        }
+    .text-box {
+            flex: 1; /* Permite que el texto ocupe el espacio disponible */
+            margin-right: 50px; /* Margen derecho para separar el texto de la imagen */
+            padding: 10px; /* Espacio interior del cuadro de texto */
+            border: 1px solid #ccc; /* Borde alrededor del cuadro de texto */
+            background-color: #f9f9f9; /* Fondo claro para el cuadro de texto */
+        }
+
+    .container2 {
+
+            align-items: center; /* Alinea verticalmente los elementos */
+            justify-content: space-between; /* Espacia los elementos a lo largo del contenedor */
+            margin: 20px; /* Margen alrededor del contenedor */
+        }
+    .text-box2 {
+
+            margin-right: 50px; /* Margen derecho para separar el texto de la imagen */
+            padding: 10px; /* Espacio interior del cuadro de texto */
+            border: 1px solid #ccc; /* Borde alrededor del cuadro de texto */
+            background-color: #f9f9f9; /* Fondo claro para el cuadro de texto */
+    }
+    .image {
+            max-width: 300px ; /* Ancho máximo de la imagen */
+            height:auto ; /* Altura automática para mantener la proporción */ 
+            text-align: left;
+            align-items: left;
+        }
+
+    .image2 {
+            max-width: 200px; /* Ancho máximo de la imagen */
+            height: auto; /* Altura automática para mantener la proporción */ 
+            text-align: right;
+        }
+
+    .footer {
+
+        border: 1px;
+        background-color:#cf6767;
+        text-align: center;
+
+    }
+    </style>
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonka</title>
+    <link rel="icon" type="imagen/png" href="wonka.png">
+</head>
+
+<body>
+
+<nav class="barra">
+
+    <!-- Inicio, Quienes somos, Ultimas Noticias, Contactanos -->
+
+    <a href="#Inicio">Inicio</a>
+    <a href="#Quienes_somos">Quienes_somos</a>
+    <a href="#Ultimas_Noticias">Ultimas_Noticias</a>
+    <a href="#Contactanos">Contactanos</a>
+
+
+</nav>
+
+<div id="Inicio">
+    <section class="Alineacion">
+        <h1>Buenos dias estrellitas, la tierra les dice hola.</h1> 
+        <h2>Introducción</h2>
+    </section>
+</div>
+
+
+  
+<div class="container">
+    <div class="text-box">
+        <p>
+            En este rincón luminoso y lleno de magia, 
+            cada día es una nueva aventura entre amigos. 
+            Nos encanta compartir sonrisas, aprendizajes y momentos inolvidables juntos. 
+            Explora, descubre y déjate llevar por la brillantez que cada uno de nosotros aporta. 
+            ¡Aquí, todos somos estrellas brillando con luz propia.
+          </p>
+    </div>
+    <figure>
+        <img src="wonka_bar.png" 
+        alt="Willy Wonka Bar" class=" image">
+        <figcaption>Willy Wonka's bar.</figcaption>
+    </figure> 
+
+</div>
+
+
+<div id="Quienes_somos">
+    <section>
+    <h2>
+        Quienes somos
+    </h2>
+</div>
+    </section>
+
+<div class="container">
+    <div class="text-box" >
+        <p>Somos un grupo de soñadores, creativos y apasionados por la vida. 
+        Cada uno de nosotros aporta una luz única que se refleja en todo lo que hacemos. 
+        Nos une el deseo de explorar, aprender y crecer juntos, siempre con una sonrisa y la mejor actitud. 
+        En este espacio, celebramos la diversidad, la inclusión y el respeto, 
+        creyendo firmemente que nuestras diferencias nos hacen más fuertes y especiales. 
+        ¡Bienvenidos a nuestra comunidad de estrellitas, donde cada día brillamos un poco más!
+        </p>
+     </div>
+</div>
+
+
+
+
+<div id="Ultimas_Noticias">
+    <section>
+        <h2>
+            <p>
+                Ultimas Noticias
+            </p>
+        </h2>
+    </section>
+</div>
+
+<div class="container2">
+    <div class="text-box2" >
+         <p>
+            Última Noticia: ¡Nuevas Constelaciones Descubiertas en el Universo de las Estrellitas! </br>
+            En un emocionante descubrimiento reciente, nuestros astrónomos estrellitas han identificado nuevas constelaciones en nuestro universo. 
+            Estas constelaciones, nombradas en honor a nuestros miembros más brillantes, 
+            simbolizan la creatividad, el compañerismo y la innovación que nos caracterizan. 
+            Cada estrella en estas constelaciones representa un logro significativo y una contribución valiosa a nuestra comunidad.                 ¡Estamos emocionados de explorar juntos estos nuevos horizontes y continuar brillando con más fuerza que nunca!        
+            </p>
+        </div>
+</div>
+
+
+<div id="Contactanos">
+
+    <section class="text-align:center">
+        <h4>
+            <p style="text-align: center;">
+                Contactanos
+            </p>
+        </h4>
+    </section>
+</div>
+
+<div class="footer">
+<p>Autor: yo merenges </br>
+    <a href="mailto=merenges@hotmail.com">merenges@hotmail.com</a>
+</p>
+</div>
+
+
+    
+</body>
+</html>
